@@ -1,6 +1,13 @@
 # Taxonomy Classifiers For Use With Q2-Feature-Classifier
 
 ```{card}
+:header: **DANGER!**
+
+Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk. If using a pre-trained classifier such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with the qza file. This security risk will be addressed in a future version of q2-feature-classifier.
+
+```
+
+```{card}
 :header: Note
 
 Taxonomic classifiers perform best when they are trained based on your specific sample preparation and sequencing parameters, including the primers that were used for amplification and the length of your sequence reads. Therefore in general you should follow the instructions in [Training feature classifiers with q2-feature-classifier](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) to train your own taxonomic classifiers (for example, from the marker gene reference databases below).
