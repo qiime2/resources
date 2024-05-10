@@ -6,7 +6,7 @@ project:
   description: A site hosting QIIME 2 resources separate from the docs so we can update the resources without rebuilding the docs.
   keywords: []
   authors: []
-  github: https://github.com/Oddant1/resources
+  github: https://github.com/qiime2/resources
   # bibliography: []
 site:
   template: book-theme
