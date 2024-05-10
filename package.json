@@ -1,0 +1,12 @@
+{
+  "name": "resources",
+  "description": "A small site hosting our pre-trained classifiers so we don't need to rebuild the docs every time we have new ones.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

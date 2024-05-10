@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 0b0f1c68-eb7d-43de-aaa6-4ca017891ad7
+  title: QIIME 2 Resources
+  description: A site hosting QIIME 2 resources separate from the docs so we can update the resources without rebuilding the docs.
+  keywords: []
+  authors: []
+  github: https://github.com/Oddant1/resources
+  # bibliography: []
+site:
+  template: book-theme
+  title: QIIME 2 Resources
+  options:
+    favicon: ./static/favicon.ico
+    logo: ./static/images/qiime2.svg
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
