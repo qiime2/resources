@@ -83,7 +83,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 ```
 
 (Silva-Citations)=
-For Silva 138, please cite the following references if you use any of these pre-trained classifiers:
+**1**: For Silva 138, please cite the following references if you use any of these pre-trained classifiers:
 
     Michael S Robeson II, Devon R O’Rourke, Benjamin D Kaehler, Michal Ziemski, Matthew R Dillon, Jeffrey T Foster, Nicholas A Bokulich. RESCRIPt: Reproducible sequence taxonomy reference database management for the masses. bioRxiv 2020.10.05.326504; doi: https://doi.org/10.1101/2020.10.05.326504
 
@@ -92,17 +92,17 @@ For Silva 138, please cite the following references if you use any of these pre-
 NOTE: See the [SILVA website](https://www.arb-silva.de/) for the latest citation information for this reference database.
 
 (GG2-Citations)=
-For Greengenes2, please cite:
+**2**: For Greengenes2, please cite:
 
     McDonald, D. et al. Greengenes2 unifies microbial data in a single reference tree. Nature Biotechnology (2023). https://www.nature.com/articles/s41587-023-01845-1
 
 (GG2-NB-Citations)=
-If using the Naive Bayes classifiers with Greengenes2, please cite:
+**3**: If using the Naive Bayes classifiers with Greengenes2, please cite:
 
     Bokulich, N.A., Kaehler, B.D., Rideout, J.R. et al. Optimizing taxonomic classification of marker-gene amplicon sequences with QIIME 2’s q2-feature-classifier plugin. Microbiome 6, 90 (2018). https://doi.org/10.1186/s40168-018-0470-z
 
 (Weighted-Citations)=
-Please cite the following reference, in addition to those listed above, if you use any of these weighted pre-trained classifiers:
+**4**: Please cite the following reference, in addition to those listed above, if you use any of these weighted pre-trained classifiers:
 
     Kaehler, B.D., Bokulich, N.A., McDonald, D. et al. Species abundance information improves sequence taxonomy classification accuracy. Nature Communications 10, 4643 (2019). https://doi.org/10.1038/s41467-019-12669-6
 
