@@ -89,7 +89,7 @@ For Silva 138, please cite the following references if you use any of these pre-
 
     Bokulich, N.A., Kaehler, B.D., Rideout, J.R. et al. Optimizing taxonomic classification of marker-gene amplicon sequences with QIIME 2’s q2-feature-classifier plugin. Microbiome 6, 90 (2018). https://doi.org/10.1101/2020.10.05.326504
 
-See the SILVA website for the latest citation information for this reference database.
+NOTE: See the [SILVA website](https://www.arb-silva.de/) for the latest citation information for this reference database.
 
 (GG2-Citations)=
 For Greengenes2, please cite:
