@@ -1,4 +1,4 @@
-# Taxonomy Classifiers For Use With Q2-feature-classifier
+# Taxonomy Classifiers For Use With Q2-Feature-Classifier
 
 ```{card}
 :header: Note
