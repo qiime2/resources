@@ -8,7 +8,8 @@ project:
   authors: []
   github: https://github.com/qiime2/resources
   exclude: README.md
-  # bibliography: []
+  bibliography:
+    - ./static/references.bib
 site:
   template: book-theme
   title: QIIME 2 Resources
