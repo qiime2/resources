@@ -65,6 +65,28 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
+```{card}
+:header: **Greengenes 13_8 99% OTUs full length sequences**
+
+**Download**: [Greengenes 13_8 99% OTUs full length sequences](https://data.qiime2.org/2022.11/common/gg-13-8-99-nb-classifier.qza)\
+**UUID**: aacdcb16-5bad-48f7-ac7d-3f30c35b0d67\
+**SHA256**: b49f6e28e4b3195b39efb4787cd3c07d4c7a2fd5ba07f5699f95c3120de7a6b5\
+**Sklearn-version**: 0.24.1\
+**Notes**: N/A\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb
+```
+
+```{card}
+:header: **Greengenes2 13_8 99% OTUs from 515F/806R region of sequences**
+
+**Download**: [Greengenes2 13_8 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2022.11/common/gg-13-8-99-515-806-nb-classifier.qza)\
+**UUID**: 4b2a57b7-1e5a-4a4d-8201-99551ab50858\
+**SHA256**: 526a122e7599f542f6b76840097c3e5dbf71a13aed7e06fee595efce43578544\
+**Sklearn-version**: 0.24.1\
+**Notes**: N/A\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb
+```
+
 ### Weighted Taxonomic Classifiers:
 
 These 16S rRNA gene classifiers were trained with weights that take into account the fact that not all species are equally likely to be observed. If your sample comes from any of the 14 habitat types we tested, these weighted classifiers should give you superior classification precision. If your sample doesn’t come from one of those habitats, they might still help. If you have the time, training with weights specific to your habitat should help even more. Weights for a range of habitats [are available here](https://github.com/BenKaehler/readytowear).
@@ -101,6 +123,102 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **Sklearn-version**: 0.24.1\
 **Notes**: N/A\
 **Citations**: @Kaehler2019-lq
+```
+
+## QIIME 2 2020.6-2021.2:
+
+### Naive Bayes Classifiers:
+
+```{card}
+:header: **Silva 138 99% OTUs full-length sequences**
+
+**Download**: [Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/2021.2/common/silva-138-99-nb-classifier.qza)\
+**UUID**: 50d540a8-272f-4012-86d3-31254047b46b\
+**SHA256**: def48c9f9c8c3444f42b13dbeaf5f6376efff3e8e81994788dc3493fe02aaedc\
+**Sklearn-version**: 0.23.1\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **Silva 138 99% OTUs from 515F/806R region of sequences**
+
+**Download**: [Silva 138 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2021.2/common/silva-138-99-515-806-nb-classifier.qza)\
+**UUID**: 981abf7d-2d85-41f5-963f-06e36c6ae5c5\
+**SHA256**: 850d449c7b0b6833cf7d7d631fb4a462e72b21fbd41ac6e6b07f159c07f64c16\
+**Sklearn-version**: 0.23.1\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **Greengenes 13_8 99% OTUs full-length sequences**
+
+**Download**: [Greengenes 13_8 99% OTUs full-length sequences](https://data.qiime2.org/2021.2/common/gg-13-8-99-nb-classifier.qza)\
+**UUID**: 8390eae6-498b-410d-a042-4a997ceab50d\
+**SHA256**: bf3604186bd7bde518bbe78478db3dd28b5ce383ae969d0efd7f8acdbd619734\
+**Sklearn-version**: 0.23.1\
+**Notes**: N/A\
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+```
+
+```{card}
+:header: **Greengenes 13_8 99% OTUs from 515F/806R region of sequences**
+
+**Download**: [Greengenes 13_8 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2021.2/common/gg-13-8-99-515-806-nb-classifier.qza)\
+**UUID**: 0ad07fee-e9e8-48fa-8e35-9f689e324245\
+**SHA256**: 2dd6f94a3614d5a1b8de6b6b1661a1e1bbb8778e53cbfcc47eb32989b5582895\
+**Sklearn-version**: 0.23.1\
+**Notes**: N/A\
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+```
+
+## QIIME 2 2020.2:
+
+### Naive Bayes Classifiers:
+
+```{card}
+:header: **Silva 132 99% OTUs full-length sequences**
+
+**Download**: [Silva 132 99% OTUs full-length sequences](https://data.qiime2.org/2020.2/common/silva-132-99-nb-classifier.qza)\
+**UUID**: 50d540a8-272f-4012-86d3-31254047b46b\
+**SHA256**: 6a78f2a6a026c4a7b7b69f87ddec765d8ff6d933fc7681badeaac9338c439658\
+**Sklearn-version**: 0.22.1\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **Silva 132 99% OTUs from 515F/806R region of sequences**
+
+**Download**: [Silva 132 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2020.2/common/silva-132-99-515-806-nb-classifier.qza)\
+**UUID**: 981abf7d-2d85-41f5-963f-06e36c6ae5c5\
+**SHA256**: c541fe3087f2b1a2391082ab608256f6467022e04e54d3c07e28c1d51cb51f75\
+**Sklearn-version**: 0.22.1\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **Greengenes 13_8 99% OTUs full-length sequences**
+
+**Download**: [Greengenes 13_8 99% OTUs full-length sequences](https://data.qiime2.org/2020.2/common/gg-13-8-99-nb-classifier.qza)\
+**UUID**: 2475458d-db2d-46d8-938e-269d5c548225\
+**SHA256**: a106451cc4719cde56141a7124219da6ba6e44eab15e02db306e486063c85a35\
+**Sklearn-version**: 0.22.1\
+**Notes**: N/A\
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+```
+
+```{card}
+:header: **Greengenes 13_8 99% OTUs from 515F/806R region of sequences**
+
+**Download**: [Greengenes 13_8 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2020.2/common/gg-13-8-99-515-806-nb-classifier.qza)\
+**UUID**: 18d34bd0-8e7e-4af6-ba34-a31c03fceb70\
+**SHA256**: 3d64bc343c5d364302b6440d6d426a18583297edf17dc144ca21ca2c4f23ce18\
+**Sklearn-version**: 0.22.1\
+**Notes**: N/A\
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
 (Silva)=
