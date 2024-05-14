@@ -109,4 +109,6 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 ```
 
 (Silva-Citations)=
-NOTE: See the [SILVA website](https://www.arb-silva.de/) for the latest citation information for this reference database.
+:::{note}
+See the [SILVA website](https://www.arb-silva.de/) for the latest citation information for this reference database.
+:::
