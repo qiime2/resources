@@ -27,23 +27,23 @@ Taxonomic classifiers perform best when they are trained based on your specific 
   - Notes
   - Citations
 * - [Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/2024.2/common/silva-138-99-nb-classifier.qza)
-  - b8609f23e9b17bd4a1321a8971303310
-  - placeholder
+  - bb5870fcf084e82a9ee6ca806f1b4f9e78b2e299eac608ff1dca4b2f28fb1b36
+  - 2bbe61fa-7f78-4913-a6a7-b42e6fff2279
   - [Silva species taxonomy may be unreliable](#Silva)
   - [1](#Silva-Citations)
 * - [Silva 138 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2024.2/common/silva-138-99-515-806-nb-classifier.qza)
-  - e05afad0fe87542704be96ff483824d4
-  - placeholder
+  - 5b08f1c272b16208830b2b712a682824b82671c8b6c5fe325ccd7feabfc498ba
+  - 9b9c290b-2297-4711-bafe-7cc603f3b990
   - [Silva species taxonomy may be unreliable](#Silva)
   - [1](#Silva-Citations)
 * - [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/classifiers/greengenes/gg_2022_10_backbone_full_length.nb.qza)
-  - 98d34227fe67b34f62b464466cca4ffa
-  - placeholder
+  - f48c1e2cc7b997d3dee953e1869c2492de03f31d99886f06a50b2536136ad5cf
+  - 3e819633-6888-42f9-ab66-fe5214e57d72
   - [Greengenes2 has succeeded Greengenes 13_8](#GG2)
   - [2](#GG2-Citations),[3](#GG2-NB-Citations)
 * - [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/greengenes/gg_2022_10_backbone.v4.nb.qza)
-  - 43de361005ae6dcae61b078c0c835021
-  - placeholder
+  - 643fd395ada320140838f12c1d395fc88ae950128a83d3a3ac55625e1d21f337
+  - 32489596-075f-44ff-a0ad-0a5c43a80b2c
   - [Greengenes2 has succeeded Greengenes 13_8](#GG2)
   - [2](GG2-Citations),[3](#GG2-NB-Citations)
 ```
@@ -76,18 +76,18 @@ These 16S rRNA gene classifiers were trained with weights that take into account
   - Notes
   - Citations
 * - [Weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/2024.2/common/silva-138-99-nb-weighted-classifier.qza)
-  - 48965bb0a9e63c411452a460d92cfc04
-  - placeholder
+  - b0be3d168e7292f3f7d6d4a299e8a0f36416db013668e89f8e614e0bd648b452
+  - 4df224fc-d4ba-44b6-9bef-cb0747673864
   - [Silva species taxonomy may be unreliable](#Silva)
   - [1](#Silva-Citations),[4](#Weighted-Citations)
 * - [Weighted Greengenes 13_8 full length sequences](https://data.qiime2.org/2024.2/common/gg-13-8-99-nb-weighted-classifier.qza)
-  - 2baf87fce174c5f6c22a4c4086b1f1fe
-  - placeholder
+  - 1629124485da77f5fadea213db4e5ba1361077df8b1fc1d37eafabc500251eca
+  - 60645f71-cb57-41e3-8ed8-c3257a630cb7
   - N/A
   - [2](#GG2-Citations),[4](#Weighted-Citations)
 * - [Weighted Greengenes 13_8 from 515F/806R region of sequences](https://data.qiime2.org/2024.2/common/gg-13-8-99-515-806-nb-weighted-classifier.qza)
-  - 8fb808c4af1c7526a2bdfaafa764e21f
-  - placeholder
+  - eb4c11d7b3cf3d1d1f0ae40b47dcf2cd0c853f0b9f9e7594d257342ceb09103a
+  - b607509d-cc1b-4fe7-863e-1359be7f34f3
   - N/A
   - [2](GG2-Citations),[4](#Weighted-Citations)
 ```
@@ -115,5 +115,3 @@ NOTE: See the [SILVA website](https://www.arb-silva.de/) for the latest citation
 **4**: Please cite the following reference, in addition to those listed above, if you use any of these weighted pre-trained classifiers:
 
     Kaehler, B.D., Bokulich, N.A., McDonald, D. et al. Species abundance information improves sequence taxonomy classification accuracy. Nature Communications 10, 4643 (2019). https://doi.org/10.1038/s41467-019-12669-6
-
-
