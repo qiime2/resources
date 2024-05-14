@@ -1,17 +1,21 @@
 # Taxonomy Classifiers For Use With Q2-Feature-Classifier
 
-```{card}
+```{image} ./static/images/qiime2-resources-ai-art.png
+:alt: Qiime2 Resources AI Art
+:align: left
+```
+
+:::{danger}
 :header: **DANGER!**
 
 Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk. If using a pre-trained classifier such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with the qza file. This security risk will be addressed in a future version of q2-feature-classifier.
+:::
 
-```
-
-```{card}
+:::{note}
 :header: Note
 
 Taxonomic classifiers perform best when they are trained based on your specific sample preparation and sequencing parameters, including the primers that were used for amplification and the length of your sequence reads. Therefore in general you should follow the instructions in [Training feature classifiers with q2-feature-classifier](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) to train your own taxonomic classifiers (for example, from the marker gene reference databases below).
-```
+:::
 
 ```{list-table} Naive Bayes Classifiers
 :header-rows: 1
@@ -45,19 +49,18 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 (Silva)=
-```{card}
+:::{note}
 :header: Note
 
 The Silva classifiers provided here include species-level taxonomy. While Silva annotations do include species, Silva does not curate the species-level taxonomy so this information may be unreliable. In a future version of QIIME 2 we will no longer include species-level information in our Silva taxonomy classifiers. This is discussed on the QIIME 2 Forum [here](https://forum.qiime2.org/t/processing-filtering-and-evaluating-the-silva-database-and-other-reference-sequence-data-with-rescript/15494#heading--second-header) (see Species-labels: caveat emptor!).
-```
-
+:::
 
 (GG2)=
-```{card}
+:::{note}
 :header: Note
 
 Greengenes2 has succeeded Greengenes 13_8. If you still need to access the outdated 13_8 classifiers, for example to reproduce old results or to compare against new classifiers, you can access them through the older QIIME 2 data resources pages.
-```
+:::
 
 ## Weighted Taxonomic Classifiers
 
