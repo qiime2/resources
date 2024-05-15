@@ -81,9 +81,9 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **Greengenes2 13_8 99% OTUs from 515F/806R region of sequences**
+:header: **Greengenes 13_8 99% OTUs from 515F/806R region of sequences**
 
-**Download**: [Greengenes2 13_8 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2022.11/common/gg-13-8-99-515-806-nb-classifier.qza)\
+**Download**: [Greengenes 13_8 99% OTUs from 515F/806R region of sequences](https://data.qiime2.org/2022.11/common/gg-13-8-99-515-806-nb-classifier.qza)\
 **UUID**: 4b2a57b7-1e5a-4a4d-8201-99551ab50858\
 **SHA256**: 526a122e7599f542f6b76840097c3e5dbf71a13aed7e06fee595efce43578544\
 **Sklearn Version**: 0.24.1\
