@@ -52,6 +52,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **SHA256**: f48c1e2cc7b997d3dee953e1869c2492de03f31d99886f06a50b2536136ad5cf\
 **Sklearn Version**: 0.24.1\
 **Date Trained**: 2022-12-30\
+**Forum Submitter**: [@wasade](https://forum.qiime2.org/u/wasade/summary)\
 **Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
@@ -64,6 +65,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **SHA256**: 643fd395ada320140838f12c1d395fc88ae950128a83d3a3ac55625e1d21f337\
 **Sklearn Version**: 0.24.1\
 **Date Trained**: 2022-10-20\
+**Forum Submitter**: [@wasade](https://forum.qiime2.org/u/wasade/summary)\
 **Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
