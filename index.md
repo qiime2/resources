@@ -24,7 +24,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **SHA256**: bb5870fcf084e82a9ee6ca806f1b4f9e78b2e299eac608ff1dca4b2f28fb1b36\
 **Sklearn-version**: 0.24.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -35,7 +35,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **SHA256**: 5b08f1c272b16208830b2b712a682824b82671c8b6c5fe325ccd7feabfc498ba\
 **Sklearn-version**: 0.24.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -95,7 +95,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: b0be3d168e7292f3f7d6d4a299e8a0f36416db013668e89f8e614e0bd648b452\
 **Sklearn-version**: 0.24.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, @Kaehler2019-lq, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Kaehler2019-lq, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -106,7 +106,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: 1629124485da77f5fadea213db4e5ba1361077df8b1fc1d37eafabc500251eca\
 **Sklearn-version**: 0.24.1\
 **Notes**: N/A\
-**Citations**: @Kaehler2019-lq
+**Citations**: @Kaehler2019-lq, @Bokulich2018-yb
 ```
 
 ```{card}
@@ -117,7 +117,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: eb4c11d7b3cf3d1d1f0ae40b47dcf2cd0c853f0b9f9e7594d257342ceb09103a\
 **Sklearn-version**: 0.24.1\
 **Notes**: N/A\
-**Citations**: @Kaehler2019-lq
+**Citations**: @Kaehler2019-lq, @Bokulich2018-yb
 ```
 
 ## QIIME 2 2020.6-2021.2:
@@ -132,7 +132,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: def48c9f9c8c3444f42b13dbeaf5f6376efff3e8e81994788dc3493fe02aaedc\
 **Sklearn-version**: 0.23.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -143,7 +143,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: 850d449c7b0b6833cf7d7d631fb4a462e72b21fbd41ac6e6b07f159c07f64c16\
 **Sklearn-version**: 0.23.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -180,7 +180,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: 6a78f2a6a026c4a7b7b69f87ddec765d8ff6d933fc7681badeaac9338c439658\
 **Sklearn-version**: 0.22.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -191,7 +191,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **SHA256**: c541fe3087f2b1a2391082ab608256f6467022e04e54d3c07e28c1d51cb51f75\
 **Sklearn-version**: 0.22.1\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
 ```{card}
