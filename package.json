@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npm install -g mystmd  && mystmd build",
+    "build": "myst build --html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mystmd": "^1.2.3"
+  }
 }
