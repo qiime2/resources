@@ -99,7 +99,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 ```
 
 ```{card}
-:header: **Weighted Greengenes2 2022.10 full length sequences**
+:header: **Weighted Greengenes 13_8 full length sequences**
 
 **Download**: [Weighted Greengenes 13_8 full length sequences](https://data.qiime2.org/2024.2/common/gg-13-8-99-nb-weighted-classifier.qza)\
 **UUID**: 60645f71-cb57-41e3-8ed8-c3257a630cb7\
@@ -110,7 +110,7 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 ```
 
 ```{card}
-:header: **Greengenes2 2022.10 from 515F/806R region of sequences**
+:header: **Weighted Greengenes 13_8 from 515F/806R region of sequences**
 
 **Download**: [Weighted Greengenes 13_8 from 515F/806R region of sequences](https://data.qiime2.org/2024.2/common/gg-13-8-99-515-806-nb-weighted-classifier.qza)\
 **UUID**: b607509d-cc1b-4fe7-863e-1359be7f34f3\
