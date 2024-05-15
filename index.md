@@ -3,7 +3,11 @@
 :::{danger}
 :header: **DANGER!**
 
-Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk. If using a pre-trained classifier such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with the qza file. This security risk will be addressed in a future version of q2-feature-classifier.
+Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk. This is due to the fact that unlike most artifacts that only contain data, classifiers contain [serialized Python objects](https://scikit-learn.org/stable/model_persistence.html) that represent actual code that will run on your computer.
+
+When QIIME 2 loads a classifier, it runs the program contained within the classifier. We have no way of vetting these programs and making sure they are safe. If using a pre-trained classifier such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with the qza file. This security risk will be addressed in a future version of q2-feature-classifier.
+
+If you want to ensure the classifier you are using is a classifier from this page and that it is uncorrupted, you can calculate the [sha256 sum](https://www.movable-type.co.uk/scripts/sha256.html) of the classifier using the command `shasum -a 256 <path-to-classifier>` if the sha does not match the published sha for the classifier on this page then do not use the classifier and instead re-download it from this page.
 :::
 
 :::{note}
