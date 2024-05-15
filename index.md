@@ -1,10 +1,5 @@
 # Taxonomy Classifiers For Use With Q2-Feature-Classifier
 
-```{image} ./static/images/qiime2-resources-ai-art.png
-:alt: Qiime2 Resources AI Art
-:align: left
-```
-
 :::{danger}
 :header: **DANGER!**
 
@@ -239,3 +234,8 @@ Greengenes2 has succeeded Greengenes 13_8. If you still need to access the outda
 :::{note}
 See the [SILVA website](https://www.arb-silva.de/) for the latest citation information for this reference database.
 :::
+
+```{image} ./static/images/qiime2-resources-ai-art.png
+:alt: Qiime2 Resources AI Art
+:align: left
+```
