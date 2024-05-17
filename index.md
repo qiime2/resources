@@ -1,13 +1,26 @@
-# Taxonomy Classifiers For Use With Q2-Feature-Classifier
+(taxonomic-classifiers)=
+# Taxonomic classifiers
 
-:::{danger}
-:header: **DANGER!**
+This page provides pre-trained taxonomic classifiers that can be used with the `q2-feature-classifier` plugin (@Bokulich2018-yb).
+Classifiers are specific to versions of [scikit-learn](https://scikit-learn.org/) (@scikit-learn), a dependency of `q2-feature-classifier`, and thus are categorized below by the QIIME 2 version range that they will work with.
 
-Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk. This is due to the fact that unlike most artifacts that only contain data, classifiers contain [serialized Python objects](https://scikit-learn.org/stable/model_persistence.html) that represent actual code that will run on your computer.
+:::{danger} Security risk
 
-When QIIME 2 loads a classifier, it runs the program contained within the classifier. We have no way of vetting these programs and making sure they are safe. If using a pre-trained classifier such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with the qza file. This security risk will be addressed in a future version of q2-feature-classifier.
 
-If you want to ensure the classifier you are using is a classifier from this page and that it is uncorrupted, you can calculate the [sha256 sum](https://www.movable-type.co.uk/scripts/sha256.html) of the classifier using the command `shasum -a 256 <path-to-classifier>` if the sha does not match the published sha for the classifier on this page then do not use the classifier and instead re-download it from this page.
+**Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk.**
+This is due to the fact that unlike most QIIME 2 artifacts that only contain data, **classifiers contain [serialized Python objects](https://scikit-learn.org/stable/model_persistence.html) that contain a program that will run on your computer**.
+We have no way of vetting these programs and making sure they are safe.
+
+If using a pre-trained classifier, such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with it.
+
+After downloading a classifier from this page, it is a very good idea to calculate the [sha256 sum](https://www.movable-type.co.uk/scripts/sha256.html) of the classifier using the command `shasum -a 256 <path-to-classifier>`.
+If the output does not match the `SHA256` value associated with the classifier on this page, do not use the classifier and instead re-download it from this page.
+If this persists after you try downloading multiple times, please let us know on the [QIIME 2 Forum](https://forum.qiime2.org).
+
+The safest thing to do, if you're concerned about using these classifiers, is to [train your own classifiers with QIIME 2](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) rather than download existing ones.
+
+We hope to [address this security risk](https://github.com/qiime2/q2-feature-classifier/issues/202) in a future version of q2-feature-classifier.
+If you have relevant expertise and would like to help with this, we would welcome that!
 :::
 
 :::{note}
@@ -16,9 +29,9 @@ If you want to ensure the classifier you are using is a classifier from this pag
 Taxonomic classifiers perform best when they are trained based on your specific sample preparation and sequencing parameters, including the primers that were used for amplification and the length of your sequence reads. Therefore in general you should follow the instructions in [Training feature classifiers with q2-feature-classifier](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) to train your own taxonomic classifiers (for example, from the marker gene reference databases below).
 :::
 
-## QIIME 2 2021.4-2024.2:
+## QIIME 2 2021.4-2024.2
 
-### Naive Bayes Classifiers:
+### Naive Bayes Classifiers
 
 ```{card}
 :header: **Silva 138 99% OTUs full-length sequences**
@@ -94,9 +107,13 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Citations**: @Robeson2020-ax, @Bokulich2018-yb
 ```
 
-### Weighted Taxonomic Classifiers:
+### Weighted Taxonomic Classifiers
 
-These 16S rRNA gene classifiers were trained with weights that take into account the fact that not all species are equally likely to be observed. If your sample comes from any of the 14 habitat types we tested, these weighted classifiers should give you superior classification precision. If your sample doesn’t come from one of those habitats, they might still help. If you have the time, training with weights specific to your habitat should help even more. Weights for a range of habitats [are available here](https://github.com/BenKaehler/readytowear).
+These 16S rRNA gene classifiers were trained with weights that take into account the fact that not all species are equally likely to be observed.
+If your sample comes from any of the 14 habitat types we tested, these weighted classifiers should give you superior classification precision.
+If your sample doesn’t come from one of those habitats, they might still help.
+If you have the time, training with weights specific to your habitat should help even more.
+Weights for a range of habitats [are available here](https://github.com/BenKaehler/readytowear).
 
 
 ```{card}
@@ -135,9 +152,9 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **Citations**: @Kaehler2019-lq, @Bokulich2018-yb
 ```
 
-## QIIME 2 2020.6-2021.2:
+## QIIME 2 2020.6-2021.2
 
-### Naive Bayes Classifiers:
+### Naive Bayes Classifiers
 
 ```{card}
 :header: **Silva 138 99% OTUs full-length sequences**
@@ -187,9 +204,9 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
-## QIIME 2 2020.2:
+## QIIME 2 2020.2
 
-### Naive Bayes Classifiers:
+### Naive Bayes Classifiers
 
 ```{card}
 :header: **Silva 132 99% OTUs full-length sequences**
@@ -243,14 +260,17 @@ These 16S rRNA gene classifiers were trained with weights that take into account
 :::{note}
 :header: Note
 
-The Silva classifiers provided here include species-level taxonomy. While Silva annotations do include species, Silva does not curate the species-level taxonomy so this information may be unreliable. In a future version of QIIME 2 we will no longer include species-level information in our Silva taxonomy classifiers. This is discussed on the QIIME 2 Forum [here](https://forum.qiime2.org/t/processing-filtering-and-evaluating-the-silva-database-and-other-reference-sequence-data-with-rescript/15494#heading--second-header) (see Species-labels: caveat emptor!).
+The Silva classifiers provided here include species-level taxonomy. While Silva annotations do include species, Silva does not curate the species-level taxonomy so this information may be unreliable.
+In a future version of QIIME 2 we will no longer include species-level information in our Silva taxonomy classifiers.
+This is discussed on the QIIME 2 Forum [here](https://forum.qiime2.org/t/processing-filtering-and-evaluating-the-silva-database-and-other-reference-sequence-data-with-rescript/15494#heading--second-header) (see Species-labels: caveat emptor!).
 :::
 
 (GG2)=
 :::{note}
 :header: Note
 
-Greengenes2 has succeeded Greengenes 13_8. If you still need to access the outdated 13_8 classifiers, for example to reproduce old results or to compare against new classifiers, you can access them through the older QIIME 2 data resources pages.
+Greengenes2 has succeeded Greengenes 13_8.
+If you still need to access the outdated 13_8 classifiers, for example to reproduce old results or to compare against new classifiers, you can access them through older QIIME 2 versions.
 :::
 
 (Silva-Citations)=
