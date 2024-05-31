@@ -29,6 +29,59 @@ If you have relevant expertise and would like to help with this, we would welcom
 Taxonomic classifiers perform best when they are trained based on your specific sample preparation and sequencing parameters, including the primers that were used for amplification and the length of your sequence reads. Therefore in general you should follow the instructions in [Training feature classifiers with q2-feature-classifier](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) to train your own taxonomic classifiers (for example, from the marker gene reference databases below).
 :::
 
+## QIIME 2 2024.5 - Present
+
+### Naive Bayes Classifiers
+
+```{card}
+:header: **Silva 138 99% OTUs full-length sequences**
+
+**Download**: [Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/2024.5/common/silva-138-99-nb-classifier.qza)\
+**UUID**: 70b4b5f4-8fce-40bd-b508-afacbc12a5ed\
+**SHA256**: c08a1aa4d56b449b511f7215543a43249ae9c54b57491428a7e5548a62613616\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-05-30\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **GTDB r220 full-length sequences**
+
+**Download**: [GTDB r220 full-length sequences](https://data.qiime2.org/2024.5/common/gtdb_classifier_r220.qza)\
+**UUID**: 5d5461cc-6a51-434b-90ab-040f388e4221\
+**SHA256**: 07aadcf7472d9cc6f853f6b4615348619f1a3eceb56c1fb1b6d8dbb20554765f\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-05-30\
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
+```
+
+```{card}
+:header: **Greengenes2 2022.10 full length sequences**
+
+**Download**: [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/classifiers/greengenes/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza)\
+**UUID**: f13a9adf-2b0f-4d11-90c5-4450a354b3b3\
+**SHA256**: 4f7ab05b57f85a76b12049c057c363759112fe17b7337f69f1ab2db0ec668024\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-05-15\
+**Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
+**Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+```
+
+```{card}
+:header: **Greengenes2 2022.10 from 515F/806R region of sequences**
+
+**Download**: [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/greengenes/2022.10.backbone.v4.nb.sklearn-1.4.2.qza)\
+**UUID**: f13a9adf-2b0f-4d11-90c5-4450a354b3b3\
+**SHA256**: 5784f50a4ce8f004019ae7495e83c170aecdb4126aa13f0bb1b2e78d1f5cb024\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-05-15\
+**Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
+**Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+```
+
 ## QIIME 2 2021.4-2024.2
 
 ### Naive Bayes Classifiers
