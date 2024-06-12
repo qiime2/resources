@@ -46,7 +46,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **Silva 138 99% OTUs full-length weighted sequences**
+:header: **human stool weighted Silva 138 99% OTUs full-length sequences**
 
 **Download**: [Silva 138 99% OTUs full-length weighted sequences](https://data.qiime2.org/2024.5/common/silva-138-99-nb-weighted-classifier.qza)\
 **UUID**: 529fdee1-778e-4a1e-acd2-b1b78fcc0048\
