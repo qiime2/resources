@@ -59,7 +59,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **Greengenes2 2022.10 full length sequences**
 
-**Download**: [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/classifiers/greengenes/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza)\
+**Download**: [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/2024.5/common/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza)\
 **UUID**: f13a9adf-2b0f-4d11-90c5-4450a354b3b3\
 **SHA256**: 4f7ab05b57f85a76b12049c057c363759112fe17b7337f69f1ab2db0ec668024\
 **Sklearn Version**: 1.4.2\
@@ -72,7 +72,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **Greengenes2 2022.10 from 515F/806R region of sequences**
 
-**Download**: [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/greengenes/2022.10.backbone.v4.nb.sklearn-1.4.2.qza)\
+**Download**: [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/2024.5/common/2022.10.backbone.v4.nb.sklearn-1.4.2.qza)\
 **UUID**: f13a9adf-2b0f-4d11-90c5-4450a354b3b3\
 **SHA256**: 5784f50a4ce8f004019ae7495e83c170aecdb4126aa13f0bb1b2e78d1f5cb024\
 **Sklearn Version**: 1.4.2\
