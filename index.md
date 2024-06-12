@@ -70,7 +70,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 
 ```{card}
 :header: **human stool weighted GTDB r220 full-length sequences**
-**Download**: [GTDB r220 full-length weighted sequences](https://data.qiime2.org/2024.5/common/gtdb_weighted_classifier_r220.qza)\
+**Download**: [human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/2024.5/common/gtdb_weighted_classifier_r220.qza)\
 **UUID**: 4410ca00-2484-49ef-bad5-039e82be10b9\
 **SHA256**: ec15dec8adc9f0bd45b315117df968a551651aef495a6079541a8bb29225d522\
 **Sklearn Version**: 1.4.2\
