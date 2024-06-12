@@ -46,11 +46,33 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
+:header: **Silva 138 99% OTUs full-length weighted sequences**
+
+**Download**: [Silva 138 99% OTUs full-length weighted sequences](https://data.qiime2.org/2024.5/common/silva-138-99-nb-weighted-classifier.qza)\
+**UUID**: 529fdee1-778e-4a1e-acd2-b1b78fcc0048\
+**SHA256**: db9e3c0105b1b9173deaa8bd828113b422c467443587cc8be3aed2e6f7cc995f\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-05-30\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+```
+
+```{card}
 :header: **GTDB r220 full-length sequences**
 
 **Download**: [GTDB r220 full-length sequences](https://data.qiime2.org/2024.5/common/gtdb_classifier_r220.qza)\
 **UUID**: 5d5461cc-6a51-434b-90ab-040f388e4221\
 **SHA256**: 07aadcf7472d9cc6f853f6b4615348619f1a3eceb56c1fb1b6d8dbb20554765f\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-05-30\
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
+```
+
+```{card}
+:header: **GTDB r220 full-length weighted sequences**
+**Download**: [GTDB r220 full-length weighted sequences](https://data.qiime2.org/2024.5/common/gtdb_weighted_classifier_r220.qza)\
+**UUID**: 4410ca00-2484-49ef-bad5-039e82be10b9\
+**SHA256**: ec15dec8adc9f0bd45b315117df968a551651aef495a6079541a8bb29225d522\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
 **Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
