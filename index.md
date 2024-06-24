@@ -36,7 +36,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **Silva 138 99% OTUs full-length sequences**
 
-**Download**: [Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/2024.5/common/silva-138-99-nb-classifier.qza)\
+**Download**: [Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-classifier.qza)\
 **UUID**: 70b4b5f4-8fce-40bd-b508-afacbc12a5ed\
 **SHA256**: c08a1aa4d56b449b511f7215543a43249ae9c54b57491428a7e5548a62613616\
 **Sklearn Version**: 1.4.2\
@@ -48,7 +48,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **human stool weighted Silva 138 99% OTUs full-length sequences**
 
-**Download**: [human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/2024.5/common/silva-138-99-nb-human-stool-weighted-classifier.qza)\
+**Download**: [human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-human-stool-weighted-classifier.qza)\
 **UUID**: 529fdee1-778e-4a1e-acd2-b1b78fcc0048\
 **SHA256**: db9e3c0105b1b9173deaa8bd828113b422c467443587cc8be3aed2e6f7cc995f\
 **Sklearn Version**: 1.4.2\
@@ -60,7 +60,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **GTDB r220 full-length sequences**
 
-**Download**: [GTDB r220 full-length sequences](https://data.qiime2.org/2024.5/common/gtdb_classifier_r220.qza)\
+**Download**: [GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_classifier_r220.qza)\
 **UUID**: 5d5461cc-6a51-434b-90ab-040f388e4221\
 **SHA256**: 07aadcf7472d9cc6f853f6b4615348619f1a3eceb56c1fb1b6d8dbb20554765f\
 **Sklearn Version**: 1.4.2\
@@ -70,7 +70,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 
 ```{card}
 :header: **human stool weighted GTDB r220 full-length sequences**
-**Download**: [human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/2024.5/common/gtdb_human_stool_weighted_classifier_r220.qza)\
+**Download**: [human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_human_stool_weighted_classifier_r220.qza)\
 **UUID**: 4410ca00-2484-49ef-bad5-039e82be10b9\
 **SHA256**: ec15dec8adc9f0bd45b315117df968a551651aef495a6079541a8bb29225d522\
 **Sklearn Version**: 1.4.2\
@@ -81,7 +81,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **Greengenes2 2022.10 full length sequences**
 
-**Download**: [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/2024.5/common/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza)\
+**Download**: [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza)\
 **UUID**: f13a9adf-2b0f-4d11-90c5-4450a354b3b3\
 **SHA256**: 4f7ab05b57f85a76b12049c057c363759112fe17b7337f69f1ab2db0ec668024\
 **Sklearn Version**: 1.4.2\
@@ -94,7 +94,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```{card}
 :header: **Greengenes2 2022.10 from 515F/806R region of sequences**
 
-**Download**: [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/2024.5/common/2022.10.backbone.v4.nb.sklearn-1.4.2.qza)\
+**Download**: [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.v4.nb.sklearn-1.4.2.qza)\
 **UUID**: f13a9adf-2b0f-4d11-90c5-4450a354b3b3\
 **SHA256**: 5784f50a4ce8f004019ae7495e83c170aecdb4126aa13f0bb1b2e78d1f5cb024\
 **Sklearn Version**: 1.4.2\
