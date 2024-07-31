@@ -46,6 +46,18 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
+:header: **diverse weighted Silva 138 99% OTUs full-length sequences**
+
+**Download**: [diverse weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-diverse-weighted-classifier.qza)\
+**UUID**: eff4efb9-d90d-43ce-acb3-53e04583323a\
+**SHA256**: decfae408061fab8ff2fec7dac1fe2a2e0041581589715062cc789bd4f9933db\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-07-04\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+```
+
+```{card}
 :header: **human stool weighted Silva 138 99% OTUs full-length sequences**
 
 **Download**: [human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-human-stool-weighted-classifier.qza)\
