@@ -69,12 +69,13 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **human stool weighted GTDB r220 full-length sequences**
-**Download**: [human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_human_stool_weighted_classifier_r220.qza)\
+:header: **EXPERIMENTAL: human stool weighted GTDB r220 full-length sequences**
+**Download**: [experimental human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_human_stool_weighted_classifier_r220.qza)\
 **UUID**: 4410ca00-2484-49ef-bad5-039e82be10b9\
 **SHA256**: ec15dec8adc9f0bd45b315117df968a551651aef495a6079541a8bb29225d522\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
+**Notes**: [GTDB human stool weights provide unreliable results for Bacteriodes taxa](#GTDB)
 **Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
 ```
 
