@@ -58,9 +58,9 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **human stool weighted Silva 138 99% OTUs full-length sequences**
+:header: **EXPERIMENTAL: human stool weighted Silva 138 99% OTUs full-length sequences**
 
-**Download**: [human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-human-stool-weighted-classifier.qza)\
+**Download**: [experimental human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-human-stool-weighted-classifier.qza)\
 **UUID**: 529fdee1-778e-4a1e-acd2-b1b78fcc0048\
 **SHA256**: db9e3c0105b1b9173deaa8bd828113b422c467443587cc8be3aed2e6f7cc995f\
 **Sklearn Version**: 1.4.2\
@@ -93,6 +93,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 
 ```{card}
 :header: **EXPERIMENTAL: human stool weighted GTDB r220 full-length sequences**
+
 **Download**: [experimental human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_human_stool_weighted_classifier_r220.qza)\
 **UUID**: 4410ca00-2484-49ef-bad5-039e82be10b9\
 **SHA256**: ec15dec8adc9f0bd45b315117df968a551651aef495a6079541a8bb29225d522\
