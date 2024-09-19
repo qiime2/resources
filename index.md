@@ -88,6 +88,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **SHA256**: 232e0360f5e12f5158f2891db8d50de7e9cc035e1ea13672d9f87582ce10ee0f\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-07-09\
+**Notes**: [These classifiers were created with 14 diverse environments: "Sediment (non-saline)", "Plant corpus", "Animal secretion", "Sediment (saline)", "Animal surface", "Surface (saline)",  "Plant rhizosphere",  "Soil (non-saline)", "Animal distal gut", "Water (saline)",  "Animal proximal gut", "Water (non-saline)",  "Animal corpus", "Plant surface". More information can be found at: https://www.nature.com/articles/s41467-019-12669-6 ](#GTDB)\
 **Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
 ```
 
