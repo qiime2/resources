@@ -81,7 +81,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **diverse weighted GTDB r220 full-length sequences**
+:header: **EXPERIMENTAL: diverse weighted GTDB r220 full-length sequences**
 
 **Download**: [diverse weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_diverse_weighted_classifier_r220.qza)\
 **UUID**: 5381b6fc-9f93-4844-8104-5263d5eae3f0\
