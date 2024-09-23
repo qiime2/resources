@@ -46,7 +46,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **diverse weighted Silva 138 99% OTUs full-length sequences**
+:header: **EXPERIMENTAL: diverse weighted Silva 138 99% OTUs full-length sequences**
 
 **Download**: [diverse weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-diverse-weighted-classifier.qza)\
 **UUID**: eff4efb9-d90d-43ce-acb3-53e04583323a\
@@ -54,7 +54,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-07-04\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, @Kaehler2019-lq [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -66,7 +66,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb,  @Kaehler2019-lq [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -88,7 +88,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **SHA256**: 232e0360f5e12f5158f2891db8d50de7e9cc035e1ea13672d9f87582ce10ee0f\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-07-09\
-**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021, @Kaehler2019-lq
 ```
 
 ```{card}
@@ -100,7 +100,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
 **Notes**: [GTDB human stool weights provide unreliable results for Bacteriodes taxa](#GTDB)
-**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021,  @Kaehler2019-lq
 ```
 
 ```{card}
