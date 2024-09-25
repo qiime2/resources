@@ -101,7 +101,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
 **Notes**: [GTDB human stool weights provide unreliable results for Bacteriodes taxa](#GTDB)
-**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021,  @Kaehler2019-lq
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021, @Kaehler2019-lq
 ```
 
 ```{card}
