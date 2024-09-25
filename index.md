@@ -66,7 +66,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, @Bokulich2018-yb,  @Kaehler2019-lq [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, @Kaehler2019-lq [Silva](#Silva-Citations)
 ```
 
 ```{card}
