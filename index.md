@@ -46,15 +46,27 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **human stool weighted Silva 138 99% OTUs full-length sequences**
+:header: **EXPERIMENTAL: diverse weighted Silva 138 99% OTUs full-length sequences**
 
-**Download**: [human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-human-stool-weighted-classifier.qza)\
+**Download**: [diverse weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-diverse-weighted-classifier.qza)\
+**UUID**: eff4efb9-d90d-43ce-acb3-53e04583323a\
+**SHA256**: decfae408061fab8ff2fec7dac1fe2a2e0041581589715062cc789bd4f9933db\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-07-04\
+**Notes**: [Silva species taxonomy may be unreliable. These classifiers were created with 14 diverse environments: "Sediment (non-saline)", "Plant corpus", "Animal secretion", "Sediment (saline)", "Animal surface", "Surface (saline)",  "Plant rhizosphere",  "Soil (non-saline)", "Animal distal gut", "Water (saline)",  "Animal proximal gut", "Water (non-saline)",  "Animal corpus", "Plant surface". More information can be found at: https://www.nature.com/articles/s41467-019-12669-6](#Silva)\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, @Kaehler2019-lq, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **EXPERIMENTAL: human stool weighted Silva 138 99% OTUs full-length sequences**
+
+**Download**: [experimental human stool weighted Silva 138 99% OTUs full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-human-stool-weighted-classifier.qza)\
 **UUID**: 529fdee1-778e-4a1e-acd2-b1b78fcc0048\
 **SHA256**: db9e3c0105b1b9173deaa8bd828113b422c467443587cc8be3aed2e6f7cc995f\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
 **Notes**: [Silva species taxonomy may be unreliable](#Silva)\
-**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, @Kaehler2019-lq [Silva](#Silva-Citations)
 ```
 
 ```{card}
@@ -69,13 +81,27 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **human stool weighted GTDB r220 full-length sequences**
-**Download**: [human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_human_stool_weighted_classifier_r220.qza)\
+:header: **EXPERIMENTAL: diverse weighted GTDB r220 full-length sequences**
+
+**Download**: [diverse weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_diverse_weighted_classifier_r220.qza)\
+**UUID**: 5381b6fc-9f93-4844-8104-5263d5eae3f0\
+**SHA256**: 232e0360f5e12f5158f2891db8d50de7e9cc035e1ea13672d9f87582ce10ee0f\
+**Sklearn Version**: 1.4.2\
+**Date Trained**: 2024-07-09\
+**Notes**: [These classifiers were created with 14 diverse environments: "Sediment (non-saline)", "Plant corpus", "Animal secretion", "Sediment (saline)", "Animal surface", "Surface (saline)",  "Plant rhizosphere",  "Soil (non-saline)", "Animal distal gut", "Water (saline)",  "Animal proximal gut", "Water (non-saline)",  "Animal corpus", "Plant surface". More information can be found at: https://www.nature.com/articles/s41467-019-12669-6 ](#GTDB)\
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021, @Kaehler2019-lq
+```
+
+```{card}
+:header: **EXPERIMENTAL: human stool weighted GTDB r220 full-length sequences**
+
+**Download**: [experimental human stool weighted GTDB r220 full-length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/gtdb/gtdb_human_stool_weighted_classifier_r220.qza)\
 **UUID**: 4410ca00-2484-49ef-bad5-039e82be10b9\
 **SHA256**: ec15dec8adc9f0bd45b315117df968a551651aef495a6079541a8bb29225d522\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-05-30\
-**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021
+**Notes**: [GTDB human stool weights provide unreliable results for Bacteriodes taxa](#GTDB)
+**Citations**: @Parks2021, @Parks2020, @Parks2018, @Rinke2021, @Kaehler2019-lq
 ```
 
 ```{card}
