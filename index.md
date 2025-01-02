@@ -113,7 +113,9 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-09-26\
 **Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
-**Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
+**Notes**:
+  - [Greengenes2 2024.09 Updates](#GG2_24.9)\
+  - [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
@@ -126,7 +128,9 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-09-26\
 **Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
-**Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
+**Notes**:
+  - [Greengenes2 2024.09 Updates](#GG2_24.9)\
+  - [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
@@ -373,6 +377,12 @@ This is discussed on the QIIME 2 Forum [here](https://forum.qiime2.org/t/process
 Greengenes2 has succeeded Greengenes 13_8.
 If you still need to access the outdated 13_8 classifiers, for example to reproduce old results or to compare against new classifiers, you can access them through older QIIME 2 versions.
 :::
+
+(GG2_24.9)=
+:::{note}
+:header: Note
+
+Please see this [QIIME 2 Forum post](https://forum.qiime2.org/t/greengenes2-2024-09/31606) for details regarding updates made to the Greengenes2 database in its 2024.09 release.
 
 (Silva-Citations)=
 :::{note}
