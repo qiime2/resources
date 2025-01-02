@@ -109,7 +109,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 
 **Download**: [Greengenes2 2024.09 full length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2024.09.backbone.full-length.nb.sklearn-1.4.2.qza)\
 **UUID**: 49ccfb0a-155d-404b-80b4-818d2aeb53b2\
-**SHA256**: dc278214bf5e493d845b55ddf7e572d9\
+**SHA256**: 5c5900c10ad601b12cf0d2280d52cc0f7852627e89070595cc3899a6d690ee27\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-09-26\
 **Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
@@ -122,7 +122,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 
 **Download**: [Greengenes2 2024.09 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2024.09.backbone.v4.nb.sklearn-1.4.2.qza)\
 **UUID**: cb118b1a-92b3-44ba-87b2-b277409d1efb\
-**SHA256**: 9e30e630a837723c2c51fd5e98daf453\
+**SHA256**: 6cafb03bd106100837ebbc611f70caf070109786b15996102edba12b14ea766e\
 **Sklearn Version**: 1.4.2\
 **Date Trained**: 2024-09-26\
 **Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
