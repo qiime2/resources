@@ -105,29 +105,33 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 ```
 
 ```{card}
-:header: **Greengenes2 2022.10 full length sequences**
+:header: **Greengenes2 2024.09 full length sequences**
 
-**Download**: [Greengenes2 2022.10 full length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.full-length.nb.sklearn-1.4.2.qza)\
-**UUID**: 1df1eab1-2ee4-4d92-917e-ba1f6c937269\
-**SHA256**: 4f7ab05b57f85a76b12049c057c363759112fe17b7337f69f1ab2db0ec668024\
+**Download**: [Greengenes2 2024.09 full length sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2024.09.backbone.full-length.nb.sklearn-1.4.2.qza)\
+**UUID**: 49ccfb0a-155d-404b-80b4-818d2aeb53b2\
+**SHA256**: 5c5900c10ad601b12cf0d2280d52cc0f7852627e89070595cc3899a6d690ee27\
 **Sklearn Version**: 1.4.2\
-**Date Trained**: 2024-05-15\
+**Date Trained**: 2024-09-26\
 **Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
-**Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
-**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb\
+**Notes**:
+- [Greengenes2 2024.09 Updates](#GG2_24.9)
+- [Greengenes2 has succeeded Greengenes 13_8](#GG2)
 ```
 
 ```{card}
-:header: **Greengenes2 2022.10 from 515F/806R region of sequences**
+:header: **Greengenes2 2024.09 from 515F/806R region of sequences**
 
-**Download**: [Greengenes2 2022.10 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2022.10.backbone.v4.nb.sklearn-1.4.2.qza)\
-**UUID**: c0a78f62-6d0f-4f4a-b9c1-ec34c4b4763b\
-**SHA256**: 5784f50a4ce8f004019ae7495e83c170aecdb4126aa13f0bb1b2e78d1f5cb024\
+**Download**: [Greengenes2 2024.09 from 515F/806R region of sequences](https://data.qiime2.org/classifiers/sklearn-1.4.2/greengenes2/2024.09.backbone.v4.nb.sklearn-1.4.2.qza)\
+**UUID**: cb118b1a-92b3-44ba-87b2-b277409d1efb\
+**SHA256**: 6cafb03bd106100837ebbc611f70caf070109786b15996102edba12b14ea766e\
 **Sklearn Version**: 1.4.2\
-**Date Trained**: 2024-05-15\
+**Date Trained**: 2024-09-26\
 **Forum Submitter**: [wasade](https://forum.qiime2.org/u/wasade/summary)\
-**Notes**: [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
-**Citations**: @McDonald2023-gq, @Bokulich2018-yb
+**Citations**: @McDonald2023-gq, @Bokulich2018-yb\
+**Notes**:
+- [Greengenes2 2024.09 Updates](#GG2_24.9)
+- [Greengenes2 has succeeded Greengenes 13_8](#GG2)
 ```
 
 ## QIIME 2 2021.4-2024.2
@@ -373,6 +377,12 @@ This is discussed on the QIIME 2 Forum [here](https://forum.qiime2.org/t/process
 Greengenes2 has succeeded Greengenes 13_8.
 If you still need to access the outdated 13_8 classifiers, for example to reproduce old results or to compare against new classifiers, you can access them through older QIIME 2 versions.
 :::
+
+(GG2_24.9)=
+:::{note}
+:header: Note
+
+Please see this [QIIME 2 Forum post](https://forum.qiime2.org/t/greengenes2-2024-09/31606) for details regarding updates made to the Greengenes2 database in its 2024.09 release.
 
 (Silva-Citations)=
 :::{note}
