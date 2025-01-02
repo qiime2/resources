@@ -116,6 +116,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Notes**:
 - [Greengenes2 2024.09 Updates](#GG2_24.9)
 - [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
+
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
@@ -131,6 +132,7 @@ Taxonomic classifiers perform best when they are trained based on your specific 
 **Notes**:
 - [Greengenes2 2024.09 Updates](#GG2_24.9)
 - [Greengenes2 has succeeded Greengenes 13_8](#GG2)\
+
 **Citations**: @McDonald2023-gq, @Bokulich2018-yb
 ```
 
