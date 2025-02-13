@@ -25,8 +25,11 @@ If you have relevant expertise and would like to help with this, we would welcom
 
 :::{note}
 :header: Note
-
-Taxonomic classifiers perform best when they are trained based on your specific sample preparation and sequencing parameters, including the primers that were used for amplification and the length of your sequence reads. Therefore in general you should follow the instructions in [Training feature classifiers with q2-feature-classifier](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) to train your own taxonomic classifiers (for example, from the marker gene reference databases below).
+Generally speaking, we think it's not necessary to use a classifier that was trained on sequences that were trimmed based on the primers you sequenced with. 
+In practice we notice very minor differences, if any, relative to those trained on full-length sequences.
+We're therefore transitioning away from providing region-specific classifiers, such as the *515F/806R region-specific classifiers* that we have provided in the past.
+Far more impactful is the use of environment-weighted classifiers, as described in [Kaehler et al., (2019)](https://doi.org/10.1038/s41467-019-12669-6).
+We're now beginning to distribute these, and as a result we have these tagged as `EXPERIMENTAL` below. 
 :::
 
 ## QIIME 2 2024.5 - Present
