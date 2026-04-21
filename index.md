@@ -22,13 +22,15 @@ Far more impactful is the use of environment-weighted classifiers, as described 
 We now distribute these, and currently have these tagged as `EXPERIMENTAL` below.
 :::
 
-## QIIME 2 2026.4 - Present
+## External references
+
+We are transitioning toward referencing external sites that host their own classifiers, as of the 2026.4 release.
+To find classifiers for use with 2026.4 and later, reference the following sites:
 
 ```{card}
 :header: **Silva classifiers**
 
 **Download**: https://www.arb-silva.de/documentation/classifiers/qiime-2\
-**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
 **Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
 ```
 
