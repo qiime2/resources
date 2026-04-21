@@ -2,7 +2,6 @@
 # Taxonomic classifiers
 
 This page provides links to pre-trained taxonomic classifiers that can be used with the `q2-feature-classifier` plugin (@Bokulich2018-yb).
-Classifiers are specific to versions of [scikit-learn](https://scikit-learn.org/) (@scikit-learn), a dependency of `q2-feature-classifier`, and thus are categorized below by the QIIME 2 version range that they will work with.
 
 :::{note} Security note
 
@@ -20,6 +19,10 @@ In practice we notice very minor differences, if any, relative to those trained 
 We are therefore no longer providing region-specific classifiers, such as the *515F/806R region-specific classifiers*, that we have provided in the past.
 Far more impactful is the use of environment-weighted classifiers, as described in [Kaehler et al., (2019)](https://doi.org/10.1038/s41467-019-12669-6).
 We now distribute these, and currently have these tagged as `EXPERIMENTAL` below.
+:::
+
+:::{note} Classifiers are QIIME 2 version specific
+Classifiers are specific to versions of [scikit-learn](https://scikit-learn.org/) (@scikit-learn), a dependency of `q2-feature-classifier`, and they are therefore generally annotated based on the version range of QIIME 2 that they will work with.
 :::
 
 ## External references
