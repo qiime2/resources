@@ -5,7 +5,7 @@ This page provides links to pre-trained taxonomic classifiers that can be used w
 
 :::{note} Security note
 
-Machine learning classifiers such as those provided here are different than other [`rachis`](https://news.rachis.org/en/latest/2025-10-23-q2f-transition/) Artifacts, as they include code that will be run (as opposed to just static data).
+Machine learning classifiers such as those provided here are different than other `Artifacts`, as they include code that will be run (as opposed to just static data).
 Thus using these classifiers is more like downloading and running software (like a plugin or an R package) than it is like downloading a static reference database.
 
 If using a pre-trained classifier, such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with it.
@@ -23,6 +23,7 @@ We now distribute these, and currently have these tagged as `EXPERIMENTAL` below
 
 :::{note} Classifiers are QIIME 2 version specific
 Classifiers are specific to versions of [scikit-learn](https://scikit-learn.org/) (@scikit-learn), a dependency of `q2-feature-classifier`, and they are therefore generally annotated based on the version range of QIIME 2 that they will work with.
+Be sure to match classifier versions with the version of QIIME 2 that you're using.
 :::
 
 ## External references
