@@ -1,37 +1,46 @@
 (taxonomic-classifiers)=
 # Taxonomic classifiers
 
-This page provides pre-trained taxonomic classifiers that can be used with the `q2-feature-classifier` plugin (@Bokulich2018-yb).
+This page provides links to pre-trained taxonomic classifiers that can be used with the `q2-feature-classifier` plugin (@Bokulich2018-yb).
 Classifiers are specific to versions of [scikit-learn](https://scikit-learn.org/) (@scikit-learn), a dependency of `q2-feature-classifier`, and thus are categorized below by the QIIME 2 version range that they will work with.
 
-:::{danger} Security risk
+:::{note} Security note
 
-
-**Pre-trained classifiers that can be used with q2-feature-classifier currently present a security risk.**
-This is due to the fact that unlike most QIIME 2 artifacts that only contain data, **classifiers contain [serialized Python objects](https://scikit-learn.org/stable/model_persistence.html) that contain a program that will run on your computer**.
-We have no way of vetting these programs and making sure they are safe.
+Machine learning classifiers such as those provided here are different than other [`rachis`](https://news.rachis.org/en/latest/2025-10-23-q2f-transition/) Artifacts, as they include code that will be run (as opposed to just static data).
+Thus using these classifiers is more like downloading and running software (like a plugin or an R package) than it is like downloading a static reference database.
 
 If using a pre-trained classifier, such as the ones provided here, you should trust the person who trained the classifier and the person who provided you with it.
-
-After downloading a classifier from this page, it is a very good idea to calculate the [sha256 sum](https://www.movable-type.co.uk/scripts/sha256.html) of the classifier using the command `shasum -a 256 <path-to-classifier>`.
-If the output does not match the `SHA256` value associated with the classifier on this page, do not use the classifier and instead re-download it from this page.
-If this persists after you try downloading multiple times, please let us know on the [QIIME 2 Forum](https://forum.qiime2.org).
-
-The safest thing to do, if you're concerned about using these classifiers, is to [train your own classifiers with QIIME 2](https://docs.qiime2.org/2024.2/tutorials/feature-classifier/) rather than download existing ones.
-
-We hope to [address this security risk](https://github.com/qiime2/q2-feature-classifier/issues/202) in a future version of q2-feature-classifier.
-If you have relevant expertise and would like to help with this, we would welcome that!
+As of QIIME 2 2025.10, it is possible for `Results` (`Artifacts` and `Visualizations`) to be cryptographically signed, so you can verify that the classifier you're using was created by who you think it was created by.
+You can find instructions for verifying these Signatures [here](https://use.qiime2.org/en/stable/how-to-guides/sign-and-verify-artifacts.html#verify-signed-result).
 :::
 
 :::{note} "Region-specific" versus "full-length" classifiers
-It is not necessary to use a classifier that was trained on sequences that were trimmed based on the primers you sequenced with. 
+It is not necessary to use a classifier that was trained on sequences that were trimmed based on the primers you sequenced with.
 In practice we notice very minor differences, if any, relative to those trained on full-length sequences.
 We are therefore no longer providing region-specific classifiers, such as the *515F/806R region-specific classifiers*, that we have provided in the past.
 Far more impactful is the use of environment-weighted classifiers, as described in [Kaehler et al., (2019)](https://doi.org/10.1038/s41467-019-12669-6).
-We now distribute these, and currently have these tagged as `EXPERIMENTAL` below. 
+We now distribute these, and currently have these tagged as `EXPERIMENTAL` below.
 :::
 
-## QIIME 2 2024.5 - Present
+## QIIME 2 2026.4 - Present
+
+```{card}
+:header: **Silva classifiers**
+
+**Download**: https://www.arb-silva.de/documentation/classifiers/qiime-2\
+**Notes**: [Silva species taxonomy may be unreliable](#Silva)\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, [Silva](#Silva-Citations)
+```
+
+```{card}
+:header: **GTDB classifiers**
+
+**Download**: https://zenodo.org/records/19446102\
+**Citations**: @Robeson2020-ax, @Bokulich2018-yb, @Parks2021, @Parks2020, @Parks2018, @Rinke2021
+```
+
+
+## QIIME 2 2024.5 - 2026.1
 
 ### Naive Bayes Classifiers
 
