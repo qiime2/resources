@@ -26,7 +26,7 @@ Classifiers are specific to versions of [scikit-learn](https://scikit-learn.org/
 Be sure to match classifier versions with the version of QIIME 2 that you're using.
 :::
 
-## External references
+## External references (2026.4 and beyond)
 
 We are transitioning toward referencing external sites that host their own classifiers, as of the 2026.4 release.
 To find classifiers for use with 2026.4 and later, reference the following sites:
