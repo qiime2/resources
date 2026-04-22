@@ -400,6 +400,7 @@ If you still need to access the outdated 13_8 classifiers, for example to reprod
 :header: Note
 
 Please see this [QIIME 2 Forum post](https://forum.qiime2.org/t/greengenes2-2024-09/31606) for details regarding updates made to the Greengenes2 database in its 2024.09 release.
+:::
 
 (Silva-Citations)=
 :::{note}
