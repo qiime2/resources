@@ -405,8 +405,3 @@ Please see this [QIIME 2 Forum post](https://forum.qiime2.org/t/greengenes2-2024
 :::{note}
 See the [SILVA website](https://www.arb-silva.de/) for the latest citation information for this reference database.
 :::
-
-```{image} ./static/images/qiime2-resources-ai-art.png
-:alt: Qiime2 Resources AI Art
-:align: left
-```
